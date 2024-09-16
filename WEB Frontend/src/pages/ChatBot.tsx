@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const GEMINI_API_KEY = 'AIzaSyDQywvMEaSydwKIe2ZbVKmo3LAY9mYsqdU'; 
+const GEMINI_API_KEY = ''; 
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
 const Chatbot: React.FC = () => {
